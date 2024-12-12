@@ -11,8 +11,8 @@ Steps to run
 gcs_file_path = "gs://<Bucket_Name>/<Dataset>.csv"
 df = spark.read.csv(gcs_file_path, header=True, inferSchema=True)
 ```
-6. Run the "Analysis.ipynb" in file to view the analysis and graphs. The photos will be stored in the GCS Bucket.
-7. Run the "model.ipynb" file to view the prediction model. The prediction model will be stored in the GCS Bucket.
+6. Run the "Analysis.py" in file to view the analysis and graphs. The photos will be stored in the GCS Bucket.
+7. Run the "Model.py" file to view the prediction model. The prediction model will be stored in the GCS Bucket.
 
 Top 20 Crime Categories in San Francisco
 -
